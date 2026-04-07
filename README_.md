@@ -34,10 +34,15 @@ Responsável por:
 ## Project Structure
 
 php-ticket-system/
+
 ├─ public/
+
 ├─ app/
+
 ├─ storage/
+
 ├─ database/
+
 ├─ docs/
 
 ## Technologies
@@ -64,11 +69,14 @@ Regra principal: não trabalhar diretamente na branch main.
 ### Criar branch
 
 git pull
+
 git checkout -b feature/nome-da-feature
 
 Exemplos:
 feature/login
+
 feature/ticket-list
+
 feature/ui-dashboard
 
 ### Commit
@@ -100,8 +108,11 @@ git push origin nome-da-branch
 Criar arquivo .env baseado no .env.example:
 
 DB_HOST=localhost
+
 DB_NAME=database_name
+
 DB_USER=root
+
 DB_PASS=
 
 OPENAI_API_KEY=your_key_here
